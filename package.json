@@ -1,0 +1,29 @@
+{
+  "name": "rust-wasm-starter",
+  "version": "1.0.0",
+  "description": "Demonstration of using WebAssembly",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a localhost -p 5200",
+    "build": "wasm-pack build --release --target web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaspm/rust-wasm-starter.git"
+  },
+  "keywords": [
+    "rust",
+    "wasm",
+    "js"
+  ],
+  "author": "Michal Gasparik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaspm/rust-wasm-starter/issues"
+  },
+  "homepage": "https://github.com/gaspm/rust-wasm-starter#readme",
+  "dependencies": {
+    "cargo": "^0.8.0",
+    "http-server": "^14.1.1"
+  }
+}
